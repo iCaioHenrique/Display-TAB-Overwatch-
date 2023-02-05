@@ -54,19 +54,19 @@ body{
     opacity: 0.8;
 }
 .team-blue--li--border{
-    background-color: #1d7b93;
+    background-color: #24cdf4;
     opacity: 0.8;
     list-style: none;
     height: 60px;
     display: flex;
+    
 
 }
 .team-blue--li--eu{
-    border-bottom: solid 1px #11617d;
+    border-bottom: solid 1px #1db1e7;
     list-style: none;
     height: 60px;
     display:flex;   
-    opacity: 0.9;
 
 }
 
@@ -90,7 +90,6 @@ body{
     width: 90px;
     height: 60px;
     justify-content: center;
-    background-color: #00d0ff;
     border-bottom: #0c4357 solid 1px;
 }
 .hole-blue{
@@ -98,7 +97,6 @@ body{
     height: 60px;
 }
 .hole-tank{
-    background-color: #24cdf4;
     height: 60px;
 }
 .img-hole{
@@ -113,9 +111,9 @@ body{
     width: 60px;
 }
 .img-heroi{
-    background-color: #24cdf4;
-    width: 100%;
-    height: 100%;
+    height: 59px;
+    width: 60px;
+    background-color: #1d7b93;
 
 }
 .vs{
@@ -131,7 +129,6 @@ body{
 hr{
     width:260px;
     margin: 20px;
-    height: 1px;
 }
 h1{
     font-weight: bold;
@@ -141,13 +138,16 @@ h1{
     height: 60px;
     opacity: 0.9;
 }
+.img-heroi-red{
+    width: 100%;
+    height: 100%;
+
+}
 .heroi-e-hole--red {
     display: flex;
     width: 90px;
     height: 60px;
     justify-content: center;
-    background-color: #e83051;
-    border-bottom: solid 1px #7d1123;
     border-bottom-left-radius: 5px;
 }
 .team-red--li--border{
