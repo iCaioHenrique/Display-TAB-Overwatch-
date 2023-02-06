@@ -27,7 +27,7 @@ body{
 .container{
     width: 1295px; 
     height: 760px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     font-family: "bignoodletitling", sans-serif;
@@ -67,7 +67,7 @@ body{
     list-style: none;
     height: 60px;
     display:flex;   
-
+    opacity: 0.9;
 }
 
 .team-red--li{
@@ -171,12 +171,23 @@ h1{
     width: 165px;
     border-bottom: solid 1px #0c4357;
 }
+.eliminacao,
+.todo,
+.morte{
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18px;
+}
 .li-direita{
     background-color: #1d7b93;
     height: 60px;
     width: 310px;
     font-size: 16px;
     border-bottom: solid 1px #11617d;
+    
+
 }
 .li-escuro--blue,
 .li-direita{
@@ -186,9 +197,7 @@ h1{
     color: #FFF;
     letter-spacing:3px;
 }
-h4{
-    margin: 1em;
-}
+
 .cinza{
     color: #abcbda;
     margin-left: 60px;
@@ -345,8 +354,19 @@ h5{
     font-family: sans-serif;
     text-transform: uppercase;
 }
+.dano,
+.cura,
+.mit{
+    height: 60px;
+    width: 103.333px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16px;
+}
 
-
-
-
+.li-escuro--red{
+    height: 60px;
+    width: 165px;
+}
 
