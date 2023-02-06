@@ -70,6 +70,7 @@ body{
     opacity: 0.9;
 }
 
+
 .team-red--li{
     background-color: #8c1a2d;
     opacity: 0.8;
@@ -95,10 +96,10 @@ body{
 .hole-blue{
     background-color: #24cdf4;
     height: 60px;
+    border-bottom: 1px solid #11617d;
+    
 }
-.hole-tank{
-    height: 60px;
-}
+
 .img-hole{
     height: 25px;
     width: 30px;
@@ -148,7 +149,6 @@ h1{
     width: 90px;
     height: 60px;
     justify-content: center;
-    border-bottom-left-radius: 5px;
 }
 .team-red--li--border{
     background-color: #8c1a2d;
@@ -198,13 +198,7 @@ h1{
     letter-spacing:3px;
 }
 
-.cinza{
-    color: #abcbda;
-    margin-left: 60px;
-    margin-right: 60px;
-    font-size: 16px;
-    letter-spacing: 3px;
-}
+
 .ult-nome{
     display: inline-flex;
 }
