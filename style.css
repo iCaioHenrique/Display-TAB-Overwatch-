@@ -24,20 +24,20 @@ body{
     align-items: center;
   }
 .container{
-    width: 1295px; 
-    height: 760px;
+    width: 1532px; 
+    height: 822px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     font-family: "bignoodletitling", sans-serif;
 }
 .team-blue{
-    width: 850px;
+    width: 1006px;
     height: 305px;
 }
 .barra{
-    height: 35px;
-    width: 850px;
+    height: 37px;
+    width: 1006px;
     background-color: #DADADA;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -47,7 +47,7 @@ body{
 }
 .team-blue--li{
     list-style: none;
-    height: 60px;
+    height: 65px;
     display: flex;
     opacity: 0.8;
 }
@@ -55,13 +55,13 @@ body{
     background-color: #24cdf4;
     opacity: 0.8;
     list-style: none;
-    height: 60px;
+    height: 65px;
     display: flex;
 }
 .team-blue--li--eu{
-    border-bottom: solid 1px #1db1e7;
+    border-bottom: solid 1px #11617d;
     list-style: none;
-    height: 60px;
+    height: 65px;
     display:flex;   
     opacity: 0.9;
 }
@@ -69,25 +69,25 @@ body{
     background-color: #8c1a2d;
     opacity: 0.8;
     list-style: none;
-    height: 61px;
+    height: 64px;
     display: flex;
     border-bottom: solid 1px #7d1123;
 }
 
 .team-red{
-    width: 850px;
+    width: 1006px;
     height: 305px;
 }
 .heroi-e-hole {
     display: flex;
-    width: 90px;
-    height: 60px;
+    width: 95px;
+    height: 65px;
     justify-content: center;
     border-bottom: #0c4357 solid 1px;
 }
 .hole-blue{
     background-color: #24cdf4;
-    height: 60px;
+    height: 65px;
     border-bottom: 1px solid #11617d;
 }
 .img-hole{
@@ -96,23 +96,23 @@ body{
     margin-top: 17px;
 }
 .heroi{
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
 }
 .img-heroi{
-    height: 59px;
-    width: 60px;
+    height: 64px;
+    width: 65px;
     background-color: #1d7b93;
 }
 .vs{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 850px;
-    height: 115px;
-    font-size: 56px;
+    height: 135px;
+    font-size: 50px;
     font-style: italic;
     color: white;
+    margin-top: 24px;
 }
 hr{
     width:260px;
@@ -123,7 +123,7 @@ h1{
 }
 .hole-red{
     background-color: #f4244a;
-    height: 60px;
+    height: 65px;
     opacity: 0.9;
 }
 .img-heroi-red{
@@ -134,28 +134,28 @@ h1{
 .heroi-e-hole--red {
     display: flex;
     width: 90px;
-    height: 60px;
+    height: 65px;
     justify-content: center;
 }
 .team-red--li--border{
     background-color: #8c1a2d;
     list-style: none;
     opacity: 0.8;
-    height: 60px;
+    height: 65px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     display: flex; 
 }
 .li-player{
     background-color: #1d7b93;
-    height: 60px;
-    width: 285px;
+    height: 65px;
+    width: 368px;
     border-bottom: solid 1px #11617d;
 }
 .li-escuro--blue{
     background-color: #135e70;
-    height: 60px;
-    width: 165px;
+    height: 65px;
+    width: 195px;
     border-bottom: solid 1px #0c4357;
 }
 .eliminacao,
@@ -169,10 +169,11 @@ h1{
 }
 .li-direita{
     background-color: #1d7b93;
-    height: 60px;
-    width: 310px;
+    height: 65px;
+    width: 368px;
     font-size: 16px;
     border-bottom: solid 1px #11617d;
+    width: 368px;
 }
 .li-escuro--blue,
 .li-direita{
@@ -186,8 +187,8 @@ h1{
     display: inline-flex;
 }
 .ult{
-    height: 41px;
-    width: 41px;
+    height: 43px;
+    width: 43px;
     border-radius: 21px;
     border: solid 5px #ff7e1e;
     text-align: center;
@@ -197,9 +198,10 @@ h1{
     align-items: center;
     justify-content: center;
     color: white;
+    font-size: 18px;
 }
 .nome-player{
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     font-style: italic;
     display: flex;
@@ -212,26 +214,27 @@ h1{
 }
 .hole-red--border{
     background-color: #e83051;
-    height: 60px;
+    height: 65px;
     opacity: 1;
     border-bottom-left-radius: 5px;
 }
 .li-player--red{
     background-color: #8c1a2d;
-    height: 60px;
-    width: 285px;
+    height: 65px;
+    width: 368px;
 }
 .li-escuro--red{
     background-color: #640f1d;
-    height: 60px;
-    width: 165px;
+    height: 65px;
+    width: 195px;
 }
 .li-direita--red{
     background-color: #8c1a2d;
-    height: 60px;
-    width: 310px;
+    height: 65px;
+    width: 368px;
     font-size: 16px;
 }
+
 .li-escuro--red,
 .li-direita--red{
     display: flex;
@@ -240,23 +243,28 @@ h1{
     color: #FFF;
     letter-spacing:3px;
 }
+.li-direita--red--border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    letter-spacing:3px;
+}
 .cinza-red{
     color: #abcbda;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 65px;
+    margin-right: 65px;
     font-size: 16px;
     letter-spacing: 3px;
 }
-.li-direita--red{
-    border-bottom-right-radius: 5px;
-}
+
 .ult-nome--red{
     display: inline-flex;
 }
 .ult-red{
-        height: 41px;
-        width: 41px;
-        border-radius: 21px;
+        height: 44px;
+        width: 44px;
+        border-radius: 23px;
         border: solid 5px #ff7e1e;
         text-align: center;
         margin-top: 10px;
@@ -265,9 +273,10 @@ h1{
         align-items: center;
         justify-content: center;
         color: white;
+        font-size: 18px;
 }
 .nome-player--red{
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     font-style: italic;
     display: flex;
@@ -278,68 +287,84 @@ h1{
     margin-top: 10px;
     margin-left: 10px;
 }
+.retangulo{
+    margin-left: 11px;
+    height: 822px;
+    width: 515px;
+
+}
 .menu-heroi{
     background-color: #272b37;
-    height: 760px;
+    height: 622px;
     width: 515px;
-    border-radius: 5px;
-    margin-left: 11px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     opacity: 0.9;
+    color: white;
+    padding-left: 36px;
+    padding-top: 87px;
 }
 .heroi-card{
-    
     background-color: #354161;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 .heroi-card img{
-    height: 170px;
-    width: 160px;
-    margin-top: -30px;
+    height: 200px;
+    width: 190px;
 }
 .jogadores-salvos{
     background-color: #272c3a;
     width: 270px;
     height: 85px;
-    color: 949495;
     border-radius: 13px;
     margin-right: 20px;
     margin-left: 20px;
     color: #fff;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .numero-3{
-    font-size: 27px;
+    font-size: 30px;
     font-style: italic;
 }
-.salvos-texto, h5{
-    color: #909193;
-    font-weight:100;
+.numero-porcentagem h2{
+    font-family: Calibri;
+    font-size: 27px;
+    font-weight: normal;
 }
-h5{
-    font-family: sans-serif;
+
+
+.salvos-texto{
+    font-family: 'Montserrat';
+    font-weight: 200;
     text-transform: uppercase;
+    color: #999a9a;
+    font-size: 20px;
 }
+
 .dano,
 .cura,
 .mit{
-    height: 60px;
-    width: 103.333px;
+    height: 65px;
+    width: 122.666px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size:16px;
+    font-size:20px;
 }
 .li-escuro--red{
-    height: 60px;
-    width: 165px;
+    height: 65px;
+    width: 195px;
+}
+#zero{
+    color: #bbb;
 }
 

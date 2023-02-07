@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
     <title>Display Overwatch</title>
 </head>
@@ -46,7 +49,7 @@
                                         </div>
                                         <div class="li-direita">
                                             <div class="dano">12.457</div>
-                                            <div class="cura">0</div>
+                                            <div class="cura" id="zero">0</div>
                                             <div class="mit">8.697</div>
                                         </div>
                                 </li>
@@ -76,7 +79,7 @@
                                         </div>
                                         <div class="li-direita">
                                             <div class="dano">13.866</div>
-                                            <div class="cura">0</div>
+                                            <div class="cura" id="zero">0</div>
                                             <div class="mit">152</div>
                                         </div>
                                 </li>
@@ -106,7 +109,7 @@
                                     </div>
                                     <div class="li-direita">
                                         <div class="dano">14.589</div>
-                                        <div class="cura">0</div>
+                                        <div class="cura" id="zero">0</div>
                                         <div class="mit">2.712</div>
                                     </div>
                                 </li>
@@ -137,7 +140,7 @@
                                     <div class="li-direita">
                                         <div class="dano">6.475</div>
                                         <div class="cura">18.912</div>
-                                        <div class="mit">0  </div>
+                                        <div class="mit" id="zero">0</div>
                                     </div>
                                 </li>
                                 <li class="team-blue--li--border">
@@ -203,7 +206,7 @@
                                         </div>
                                         <div class="li-direita--red">
                                             <div class="dano">11.055</div>
-                                            <div class="cura">0</div>
+                                            <div class="cura" id="zero">0</div>
                                             <div class="mit">14.367</div>
                                         </div>  
                                     </li>
@@ -233,7 +236,7 @@
                                         </div>
                                         <div class="li-direita--red">
                                             <div class="dano">10.026</div>
-                                            <div class="cura">0</div>
+                                            <div class="cura" id="zero">0</div>
                                             <div class="mit">674</div>
                                         </div>  
                                     </li>
@@ -263,7 +266,7 @@
                                         </div>
                                         <div class="li-direita--red">
                                             <div class="dano">14.288</div>
-                                            <div class="cura">0</div>
+                                            <div class="cura" id="zero">0</div>
                                             <div class="mit">7</div>
                                         </div>  
                                     </li>
@@ -321,29 +324,67 @@
                                             <div class="todo">17</div>
                                             <div class="morte">9</div>
                                         </div>
-                                        <div class="li-direita--red">
+                                        <div class="li-direita--red--border">
                                             <div class="dano">5.939</div>
                                             <div class="cura">9.910</div>
-                                            <div class="mit">0</div>
+                                            <div class="mit" id="zero">0</div>
                                         </div>  
                                     </li>
                                 </ul>
                     </div>
             </div>
-            <div class="menu-heroi">
-                <div class="heroi-card">
-                    <img src="assets/images/Moira-icon.webp" alt="Moira">
-                    <div class="jogadores-salvos">
-                        <div class="numero-3">
-                            <h2>3</h2>
-                        </div>
-                        <div class="salvos-texto">
-                            <h5>Jogadores salvos</h5>
+            <div class="retangulo">
+                    <div class="heroi-card">
+                        <img src="assets/images/Moira-icon.webp" alt="Moira">
+                        <div class="jogadores-salvos">
+                            <div class="numero-3">
+                                <h2>3</h2>
+                            </div>
+                            <div class="salvos-texto">
+                                <h5>Jogadores salvos</h5>
+                            </div>
                         </div>
                     </div>
-                    
+                <div class="menu-heroi">
+                    <div class="numero-porcentagem">
+                        <h2>34%</h2>
+                    </div>
+                    <div class="salvos-texto">
+                        <h5>Precisão com o disparo secundário</h5>
+                    </div><br>
+                    <div class="numero-porcentagem">
+                        <h2>11</h2>
+                    </div>
+                    <div class="salvos-texto">
+                        <h5>Abates com orbe biótico</h5>
+                    </div><br>
+                    <div class="numero-porcentagem">
+                        <h2>4.086</h2>
+                    </div>
+                    <div class="salvos-texto">
+                        <h5>Cura com orbe biótico</h5>
+                    </div><br>
+                    <div class="numero-porcentagem">
+                        <h2>25%</h2>
+                    </div>
+                    <div class="salvos-texto">
+                        <h5>Eficiêncoa da coalescência</h5>
+                    </div><br>
+                    <div class="numero-porcentagem">
+                        <h2>7</h2>
+                    </div>
+                    <div class="salvos-texto">
+                        <h5>Abates por coalescência</h5>
+                    </div><br>
+                    <div class="numero-porcentagem">
+                        <h2>3</h2>
+                    </div>
+                    <div class="salvos-texto">
+                        <h5>Precisão com o disparo secundário</h5>
+                    </div><br>
                 </div>
             </div>
+            
             </div>
             
     </section>
